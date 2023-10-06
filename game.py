@@ -5,8 +5,10 @@ import tkinter
 from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
-
+# test sa vedem ce zicee git
 # pozitionez fereastra pe mijlocul ecranului, in functie de ecran
+
+
 def center_pos(win_width, win_height):
     s_width = root.winfo_screenwidth()
     s_height = root.winfo_screenheight()
@@ -15,6 +17,7 @@ def center_pos(win_width, win_height):
     if win_height > s_height:
         win_height = s_height - 160
     return f"{win_width}x{win_height}+{win_pos_x}+{win_pos_y}"
+
 
 # aceasta functie primeste nr. introdus de user, verifica si afisaza un rezultat
 def check_nr(nr):
