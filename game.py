@@ -5,7 +5,7 @@ import tkinter
 from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
-# test sa vedem ce zicee git
+# test sa vedem ce zice git
 # pozitionez fereastra pe mijlocul ecranului, in functie de ecran
 
 
@@ -19,7 +19,7 @@ def center_pos(win_width, win_height):
     return f"{win_width}x{win_height}+{win_pos_x}+{win_pos_y}"
 
 
-# aceasta functie primeste nr. introdus de user, verifica si afisaza un rezultat
+# Aceasta functie primeste nr. introdus de user, verifica si afisaza un rezultat
 def check_nr(nr):
     global i, gen_nr
     combo_dif.config(state='disabled')
@@ -59,9 +59,9 @@ def combo_selected(event):
 # la final putem reseta in cazul in care vrem sa mai incercam odata
 def reset():
     global i, max_gen_nr
-    # reactivam butonul "enter"
+    # reactivam butonul "enter".
     btn_enter.config(state='active')
-    # scoatem butonul "reset"
+    # scoatem butonul "reset".
     btn_reset.grid_remove()
     i = 0
     max_gen_nr = 50
